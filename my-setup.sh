@@ -56,7 +56,7 @@ makepkg -si
 cd ..
 sudo rm -r yay
 
-
+printf "\n######## Setup script finised #########\nYou may now want to setup zsh with ohmyzsh or zsh4humans\nEnter vim to install plugins"
 
 
 
