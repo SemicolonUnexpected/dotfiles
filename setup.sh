@@ -1,24 +1,17 @@
 # Helper function to print title text
-titleText () {
+titleText() {
 	printf "\n\n######## $1 ########\n\n"
 }
 
-# Vars to make setup easier to configure
+# Helper variables
 EMAIL="m.gracey1409@gmail.com"
-
-
-titleText "Upgrading system"
-
-sudo pacman -Syu
-
-titleText "Copying configs"
 
 # Copy all the configs in the configs directory to the home directory
 cp ./configs/. ~
 
-titleText "Installing some useful packages"
+titleText "Installing git"
 
-sudo pacman -S git neovim neofetch openssh 
+sudo pacman -S git
 
 titleText "Installing yay"
 
@@ -28,9 +21,9 @@ makepkg -si
 cd ~
 sudo rm -r yay
 
-titleText "Installing Hyprland"
+titleText "Installing packages with yay"
 
-yay -S hyprland
+yay -S neofetch neovim btop kitty firefox hyprland rofi-lbonn-wayland hyprpaper brightnessctl
 
 titleText "Making directories"
 
