@@ -1,0 +1,26 @@
+# Aliases
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias v='nvim'
+
+# Git aliases
+alias g="git"
+alias gst="git status"
+alias gc="git commit"
+alias ga="git add"
+alias gpl="git pull"
+alias gpom="git pull origin master"
+alias gpu="git push"
+alias gpuom="git push origin master"
+alias gd="git diff"
+alias gch="git checkout"
+alias gac="git add . && git commit"
+alias grs="git restore --staged ."
+alias gre="git restore"
+alias gr="git remote"
+alias gcl="git clone"
+alias gt="git ls-tree -r master --name-only"
+alias grm="git remote"
+alias gb="git branch"
+alias gf="git fetch"
+
