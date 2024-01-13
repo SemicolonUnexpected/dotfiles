@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #                _ _
 # __      ____ _| | |_ __   __ _ _ __   ___ _ __
 # \ \ /\ / / _` | | | '_ \ / _` | '_ \ / _ \ '__|
@@ -18,6 +18,8 @@ WALLPAPER=$(ls ~/.config/wallpapers/ | shuf -n 1)
 # Set the new wallpaper
 # -----------------------------------------------------
 
-echo $WALLPAPER
+cp /dev/null ~/.config/hypr/hyprpaper.conf
+echo "splash = false" >> ~/.config/hypr/hyprpaper.conf
+echo "preload = ~/.config/wallpapers/$WALLPAPER" >> ~/.config/hypr/hyprpaper.conf
+echo "wallpaper = ,~/.config/wallpapers/$WALLPAPER" >> ~/.config/hypr/hyprpaper.conf
 
-swww img ~/.config/wallpapers/$WALLPAPER
