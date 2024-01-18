@@ -23,7 +23,13 @@ sudo rm -r yay
 
 titleText "Installing packages with yay"
 
-yay -S neofetch neovim btop kitty firefox hyprland rofi-lbonn-wayland hyprpaper brightnessctl
+yay -S neofetch neovim btop kitty firefox hyprland rofi-lbonn-wayland hyprpaper brightnessctl bluez bluez-util
+
+titleText "Installing qemu"
+
+yay -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils iptables ebtables
+sudo systemctl enable libvirt.service
+sudo systemctl start libvirt.service
 
 titleText "Making directories"
 

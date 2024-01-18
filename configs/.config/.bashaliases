@@ -2,6 +2,7 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias v='nvim'
+alias vm='sudo virsh net-start default'
 
 # Git aliases
 alias g="git"

@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 # Aliases
-source .config/.bashaliases
+source ~/.config/.bashaliases
 
 # Rust env
 PS1='[\u@\h \W]\$ '
@@ -14,6 +14,3 @@ PS1='[\u@\h \W]\$ '
 
 # Starship
 eval "$(starship init bash)"
-
-# Hyprland
-# Hyprland
