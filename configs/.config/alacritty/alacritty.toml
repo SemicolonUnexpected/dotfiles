@@ -1,4 +1,4 @@
-import = ["~/.config/alacritty/colourscheme.toml"]
+import = ["~/.config/alacritty/nightfly.toml"]
 
 [font]
 size = 14
@@ -34,6 +34,6 @@ general = "Alacritty"
 instance = "Alacritty"
 
 [window.padding]
-x = 5
-y = 5
+x = 7
+y = 7
 
