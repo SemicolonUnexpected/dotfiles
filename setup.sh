@@ -3,6 +3,24 @@ titleText() {
 	printf "\n\n######## $1 ########\n\n"
 }
 
+# Helper function to prompt for setup
+promptSetup() {
+    while true; do
+        read -p "$1 [Y/n] " yn
+        case $yn in
+            [Nn]* ) return 1;;
+            * ) return 0;;
+        esac
+    done
+}
+
+# Install on prompt
+installOnPrompt() {
+    if [promptSetup $1 ]
+        yay -S $2
+    fi
+}
+
 # Helper variables
 EMAIL="m.gracey1409@gmail.com"
 
