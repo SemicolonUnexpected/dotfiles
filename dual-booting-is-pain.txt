@@ -1,0 +1,22 @@
+DUAL BOOTING IS PAINFUL
+
+Ill say is again...
+
+DUAL BOOTING IS PAINFUL
+
+However, I will admit it is useful
+
+Unfortunately everyone else is mostly Microsoft based
+
+Basically...
+- Once you have installed arch or similar you may need to mount the windows efi partition, e.g. on /mnt/windows
+- Then ensure that os-prober is installed 
+- Then ensure it is enabled in the grub boot loader. The config is in /boot/default/grub.cfg and the line that needs uncommented is the last one
+
+Here are some useful commands...
+
+# Install grub
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+
+# Update the grub config
+grub-mkconfig -o /boot/grub/grub.cfg
