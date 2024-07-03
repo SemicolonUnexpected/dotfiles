@@ -13,7 +13,7 @@ return {
         local keymap = vim.keymap -- For conciseness
 
         local opts = { noremap = true, silent = true }
-        local on_attatch = function(client, bufnr)
+        local on_attatch = function(bufnr)
             opts.buffer = bufnr
 
             -- Set keybinds
@@ -72,8 +72,6 @@ return {
             capabilities = capabilities,
             on_attach = on_attatch,
         })
-
-        local pid = vim.fn.getpid()
 
         -- Configure c# server
         lspconfig["omnisharp"].setup({

@@ -9,7 +9,7 @@
 # -----------------------------------------------------
 
 # -----------------------------------------------------
-# Select a randow wallpaper
+# Select a random wallpaper
 # -----------------------------------------------------
 
 WALLPAPER=$(ls ~/.config/wallpapers/ | shuf -n 1)
@@ -22,4 +22,3 @@ cp /dev/null ~/.config/hypr/hyprpaper.conf
 echo "splash = false" >> ~/.config/hypr/hyprpaper.conf
 echo "preload = ~/.config/wallpapers/$WALLPAPER" >> ~/.config/hypr/hyprpaper.conf
 echo "wallpaper = ,~/.config/wallpapers/$WALLPAPER" >> ~/.config/hypr/hyprpaper.conf
-

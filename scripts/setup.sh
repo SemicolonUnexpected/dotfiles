@@ -1,3 +1,4 @@
+#
 # Helper function to print title text
 titleText() {
 	printf "\n\n######## $1 ########\n\n"
