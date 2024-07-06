@@ -6,8 +6,8 @@
 [[ $- != *i* ]] && return
 
 # Aliases
-source ~/.config/shell/aliases
-source ~/.config/shell/git-aliases
+source ~/.config/shell/aliases.sh
+source ~/.config/shell/git-aliases.sh
 
 # Rust env
 PS1='[\u@\h \W]\$ '
