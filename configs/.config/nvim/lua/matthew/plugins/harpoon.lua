@@ -4,8 +4,8 @@ return {
     "nvim-lua/plenary.nvim",
   },
   config = function()
-    -- set keymaps
-    local keymap = vim.keymap -- for conciseness
+    -- Set keymaps
+    local keymap = vim.keymap -- For conciseness
 
     keymap.set(
       "n",
@@ -15,18 +15,18 @@ return {
     )
     keymap.set(
       "n",
-      "<leader>hm",
+      "<leader>m",
       "<cmd>lua require('harpoon.mark').add_file()<cr>",
       { desc = "Mark file with harpoon" }
     )
     keymap.set("n",
-      "<leader>hn",
+      "<leader>n",
       "<cmd>lua require('harpoon.ui').nav_next()<cr>",
       { desc = "Go to next harpoon mark" }
     )
     keymap.set(
       "n",
-      "<leader>hp",
+      "<leader>p",
       "<cmd>lua require('harpoon.ui').nav_prev()<cr>",
       { desc = "Go to previous harpoon mark" }
     )
@@ -34,25 +34,25 @@ return {
     -- Keymaps for quick navigation to the first 4 files
     keymap.set(
       "n",
-      "<leader>hh",
+      "<leader>h",
       "<cmd>lua require('harpoon.ui').nav_file(1)<cr>",
       { desc = "Go to previous harpoon mark" }
     )
     keymap.set(
       "n",
-      "<leader>hj",
+      "<leader>j",
       "<cmd>lua require('harpoon.ui').nav_file(2)<cr>",
       { desc = "Go to previous harpoon mark" }
     )
     keymap.set(
       "n",
-      "<leader>hk",
+      "<leader>k",
       "<cmd>lua require('harpoon.ui').nav_file(3)<cr>",
       { desc = "Go to previous harpoon mark" }
     )
     keymap.set(
       "n",
-      "<leader>hl",
+      "<leader>l",
       "<cmd>lua require('harpoon.ui').nav_file(4)<cr>",
       { desc = "Go to previous harpoon mark" }
     )

@@ -6,4 +6,8 @@ alias v='nvim'
 alias vm='sudo virsh net-start default'
 alias nf='neofetch'
 
-alias tmux="TERM=screen-256color-bce tmux"
+# Achoring to currect dir
+alias anchor='alias goto="cd $(pwd)"'
+
+# tmux is interesting however a bit hacky
+# alias tmux="TERM=screen-256color-bce tmux"

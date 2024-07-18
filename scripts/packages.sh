@@ -9,12 +9,13 @@ cd ~
 sudo rm -r yay
 
 printf "Installing other packages..."
+
 # Hyprland core packages
 yay -S hyprland hyprpaper
 
 # Other packages
 yay -S neofetch htop alacritty rofi-lbonn-wayland \
-    neovim bluez bluez-util brightnessctl swappy \
+    neovim bluez bluez-utils brightnessctl swappy \
     dunst grim slurp gimp inkscape
 
 
