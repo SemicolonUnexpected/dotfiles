@@ -1,0 +1,38 @@
+import = ["~/.config/alacritty/nightfly.toml"]
+
+[font]
+size = 14
+
+[font.bold]
+family = "JetBrainsMono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono"
+style = "Regular"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+
+[window]
+opacity = 1
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 7
+y = 7
