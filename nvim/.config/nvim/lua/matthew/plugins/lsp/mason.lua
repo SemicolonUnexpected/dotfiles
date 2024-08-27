@@ -23,7 +23,6 @@ return {
         mason_lspconfig.setup({
             -- List of servers for mason to install
             ensure_installed = {
-                "rust_analyzer",
                 "lua_ls",
                 "pylsp"
             },

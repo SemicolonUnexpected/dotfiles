@@ -11,6 +11,7 @@ return {
                 "lua",
                 "vim",
                 "vimdoc",
+                "python",
             },
             sync_install = false,
             highlight = { enable = true },
