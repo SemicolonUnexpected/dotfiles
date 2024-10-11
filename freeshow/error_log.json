@@ -1,0 +1,1522 @@
+{
+	"main": [
+		{
+			"time": "2024-08-29T21:29:13.489Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"type": "Uncaught Exception",
+			"source": "See stack",
+			"message": "net::ERR_NETWORK_CHANGED",
+			"stack": "Error: net::ERR_NETWORK_CHANGED\n    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7167)\n    at SimpleURLLoaderWrapper.emit (node:events:527:28)"
+		},
+		{
+			"time": "2024-08-31T14:02:42.212Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"type": "Uncaught Exception",
+			"source": "See stack",
+			"message": "Cannot read properties of null (reading 'path')",
+			"stack": "TypeError: Cannot read properties of null (reading 'path')\n    at IpcMainImpl.d (/tmp/.mount_FreeShimzYVG/resources/app.asar/build/electron/data/export.js:2:592)\n    at IpcMainImpl.emit (node:events:531:35)\n    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:83159)\n    at WebContents.emit (node:events:519:28)"
+		},
+		{
+			"time": "2024-08-31T14:03:55.389Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"type": "Uncaught Exception",
+			"source": "See stack",
+			"message": "Cannot read properties of null (reading 'path')",
+			"stack": "TypeError: Cannot read properties of null (reading 'path')\n    at IpcMainImpl.d (/tmp/.mount_FreeShimzYVG/resources/app.asar/build/electron/data/export.js:2:592)\n    at IpcMainImpl.emit (node:events:531:35)\n    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:83159)\n    at WebContents.emit (node:events:519:28)"
+		}
+	],
+	"renderer": [
+		{
+			"time": "2024-08-29T21:35:00.848Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:00.861Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:00.888Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:00.915Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:00.950Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:00.994Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.011Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.041Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.069Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.096Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.111Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.129Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.145Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.161Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.179Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.201Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.334Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.348Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.374Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.382Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.428Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.445Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.528Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.545Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.561Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.578Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.595Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.620Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.641Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.655Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.670Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.684Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.694Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.713Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-29T21:35:01.729Z",
+			"os": "linux",
+			"version": "1.2.4",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "default",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					]
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js - 19:663611",
+			"message": "Uncaught TypeError: Cannot read properties of null (reading 'closest')",
+			"stack": "TypeError: Cannot read properties of null (reading 'closest')\n    at JN (file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:663611)\n    at file:///tmp/.mount_FreeShhUp5E3/resources/app.asar/public/build/bundle.js:19:666432"
+		},
+		{
+			"time": "2024-08-31T10:21:59.956Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 3,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShYXrZSd/resources/app.asar/public/build/bundle.js - 19:281627",
+			"message": "Uncaught TypeError: e.forEach is not a function",
+			"stack": "TypeError: e.forEach is not a function\n    at Fk (file:///tmp/.mount_FreeShYXrZSd/resources/app.asar/public/build/bundle.js:19:281627)\n    at Object.slide (file:///tmp/.mount_FreeShYXrZSd/resources/app.asar/public/build/bundle.js:19:292827)\n    at Jk (file:///tmp/.mount_FreeShYXrZSd/resources/app.asar/public/build/bundle.js:19:285703)\n    at Object.Delete (file:///tmp/.mount_FreeShYXrZSd/resources/app.asar/public/build/bundle.js:19:1253359)\n    at G2 (file:///tmp/.mount_FreeShYXrZSd/resources/app.asar/public/build/bundle.js:19:1254401)"
+		},
+		{
+			"time": "2024-08-31T11:41:14.066Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:15.040Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:15.137Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:15.245Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:15.824Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:15.950Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:16.096Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:16.273Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:16.511Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:16.676Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:17.060Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:17.163Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:17.308Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:17.674Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:17.777Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:17.874Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T11:41:17.956Z",
+			"os": "linux",
+			"version": "1.2.6",
+			"active": {
+				"window": "main",
+				"page": "edit",
+				"show": {
+					"id": "b75a08ae6a1",
+					"type": "show",
+					"index": 0
+				},
+				"edit": {
+					"slide": 4,
+					"items": [
+						1
+					],
+					"showId": "b75a08ae6a1"
+				}
+			},
+			"drawer": {
+				"active": "CLOSED"
+			},
+			"type": "error",
+			"source": "file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js - 19:299018",
+			"message": "Uncaught TypeError: Cannot read properties of undefined (reading 'value')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'value')\n    at file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:299018\n    at Array.forEach (<anonymous>)\n    at a_.determineCaretLine (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:298988)\n    at O (file:///tmp/.mount_FreeShdJblb7/resources/app.asar/public/build/bundle.js:19:666519)"
+		},
+		{
+			"time": "2024-08-31T14:02:41.775Z",
+			"os": "Unknown",
+			"version": "0.0.0",
+			"active": {
+				"window": "pdf",
+				"page": "show",
+				"show": null,
+				"edit": {
+					"items": []
+				}
+			},
+			"drawer": {
+				"active": "shows"
+			},
+			"type": "unhandledrejection",
+			"source": "See stack",
+			"message": "Cannot read properties of undefined (reading 'style')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'style')\n    at Zp (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:1:303579)\n    at Ke (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:1:9937)\n    at new Xp (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:1:305306)\n    at zO (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:19:494540)\n    at LO (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:19:499345)\n    at bO (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:19:492403)\n    at Object.p (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:19:501676)\n    at Ee (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:1:6497)\n    at _e (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:1:6132)"
+		},
+		{
+			"time": "2024-08-31T14:03:52.260Z",
+			"os": "Unknown",
+			"version": "0.0.0",
+			"active": {
+				"window": "pdf",
+				"page": "show",
+				"show": null,
+				"edit": {
+					"items": []
+				}
+			},
+			"drawer": {
+				"active": "shows"
+			},
+			"type": "unhandledrejection",
+			"source": "See stack",
+			"message": "Cannot read properties of undefined (reading 'style')",
+			"stack": "TypeError: Cannot read properties of undefined (reading 'style')\n    at Zp (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:1:303579)\n    at Ke (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:1:9937)\n    at new Xp (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:1:305306)\n    at zO (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:19:494540)\n    at LO (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:19:499345)\n    at bO (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:19:492403)\n    at Object.p (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:19:501676)\n    at Ee (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:1:6497)\n    at _e (file:///tmp/.mount_FreeShimzYVG/resources/app.asar/public/build/bundle.js:1:6132)"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"default": {
+		"name": "Welcome",
+		"category": "presentation",
+		"timestamps": {
+			"created": 1724772340813,
+			"modified": 1724966905604,
+			"used": 1724966888064
+		},
+		"quickAccess": {}
+	}
+}

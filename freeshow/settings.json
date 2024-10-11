@@ -1,0 +1,228 @@
+{
+	"initialized": true,
+	"outLocked": false,
+	"outputs": {
+		"default": {
+			"enabled": true,
+			"active": true,
+			"name": "Primary",
+			"color": "#F0008C",
+			"bounds": {
+				"x": 0,
+				"y": 0,
+				"width": 2560,
+				"height": 1600
+			},
+			"screen": "33",
+			"kiosk": true,
+			"style": "default",
+			"show": {},
+			"kioskMode": false
+		}
+	},
+	"sorted": {},
+	"styles": {
+		"default": {
+			"name": "Default",
+			"resolution": {
+				"width": 1920,
+				"height": 1080
+			},
+			"transition": {
+				"text": {
+					"type": "none",
+					"duration": 500,
+					"easing": "sine",
+					"custom": {}
+				},
+				"media": {
+					"type": "none",
+					"duration": 800,
+					"easing": "sine",
+					"custom": {}
+				}
+			},
+			"layers": [
+				"background",
+				"slide",
+				"overlays"
+			],
+			"background": "#000000",
+			"fit": "cover",
+			"cropping": {
+				"top": 0,
+				"right": 0,
+				"bottom": 0,
+				"left": 1000
+			}
+		}
+	},
+	"openedFolders": [
+		"88bf6c40ac6",
+		"995b75a08ae",
+		"95b75a08ae6",
+		"0b366c4bf44"
+	],
+	"alertUpdates": true,
+	"autoOutput": false,
+	"autosave": "2min",
+	"timeFormat": "24",
+	"remotePassword": "9933",
+	"ports": {
+		"remote": 5510,
+		"stage": 5511
+	},
+	"disabledServers": {
+		"remote": false,
+		"stage": false,
+		"controller": false
+	},
+	"serverData": {},
+	"maxConnections": 10,
+	"mediaFolders": {
+		"pictures": {
+			"name": "category.pictures",
+			"icon": "folder",
+			"path": "/home/mgrac/Pictures",
+			"default": true
+		},
+		"videos": {
+			"name": "category.videos",
+			"icon": "folder",
+			"path": "/home/mgrac/Videos",
+			"default": true
+		}
+	},
+	"audioFolders": {
+		"music": {
+			"name": "category.music",
+			"icon": "folder",
+			"path": "/home/mgrac/Music",
+			"default": true
+		}
+	},
+	"playerVideos": {
+		"chosen": {
+			"name": "The Chosen Trailer",
+			"type": "youtube",
+			"id": "X-AJdKty74M"
+		},
+		"jesus": {
+			"name": "Jesus, Only Jesus",
+			"type": "vimeo",
+			"id": "426363743"
+		}
+	},
+	"resized": {
+		"leftPanel": 262,
+		"rightPanel": 422,
+		"leftPanelDrawer": 290,
+		"rightPanelDrawer": 290
+	},
+	"slidesOptions": {
+		"columns": 4,
+		"mode": "grid"
+	},
+	"mediaOptions": {
+		"columns": 5,
+		"mode": "grid"
+	},
+	"drawerTabsData": {
+		"shows": {
+			"activeSubTab": "song",
+			"enabled": true
+		},
+		"media": {
+			"activeSubTab": "all",
+			"enabled": true
+		},
+		"overlays": {
+			"activeSubTab": "all",
+			"enabled": true
+		},
+		"functions": {
+			"activeSubTab": "actions",
+			"enabled": true
+		},
+		"calendar": {
+			"activeSubTab": "event",
+			"enabled": true
+		},
+		"scripture": {
+			"activeSubTab": "kjv",
+			"enabled": true
+		},
+		"templates": {
+			"activeSubTab": "song",
+			"enabled": true
+		}
+	},
+	"drawer": {
+		"height": 40,
+		"stored": 300
+	},
+	"labelsDisabled": false,
+	"groupNumbers": true,
+	"fullColors": false,
+	"formatNewShow": true,
+	"dataPath": "/home/mgrac/freeshow",
+	"lockedOverlays": [],
+	"splitLines": 0,
+	"videoExtensions": [
+		"mp4",
+		"mov",
+		"wmv",
+		"avi",
+		"avchd",
+		"flv",
+		"mkv",
+		"webm",
+		"mpeg",
+		"m4v"
+	],
+	"imageExtensions": [
+		"tif",
+		"tiff",
+		"bmp",
+		"jpg",
+		"jpeg",
+		"gif",
+		"png",
+		"eps",
+		"jfif",
+		"webp",
+		"avif"
+	],
+	"theme": "blue",
+	"transitionData": {
+		"text": {
+			"type": "fade",
+			"duration": 500,
+			"easing": "sine"
+		},
+		"media": {
+			"type": "fade",
+			"duration": 800,
+			"easing": "sine"
+		}
+	},
+	"volume": 1,
+	"gain": 1,
+	"driveData": {
+		"mainFolderId": null,
+		"disabled": false,
+		"initializeMethod": null,
+		"disableUpload": false
+	},
+	"calendarAddShow": "",
+	"metronome": {},
+	"bibleApiKey": "",
+	"special": {
+		"capitalize_words": "Jesus, Lord",
+		"customUserDataLocation": true,
+		"max_auto_font_size": "800"
+	},
+	"activeProject": "995b75a08ae",
+	"showsPath": "/home/mgrac/freeshow/Shows",
+	"language": "en"
+}

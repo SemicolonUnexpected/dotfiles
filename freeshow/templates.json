@@ -1,0 +1,832 @@
+{
+	"metadata": {
+		"name": "Metadata",
+		"color": null,
+		"category": null,
+		"items": [
+			{
+				"style": "top: 910px;left: 30px;width: 1860px;height: 150px;opacity: 0.8;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "Metadata",
+								"style": "font-size: 30px;text-shadow: 2px 2px 4px rgb(0 0 0 / 80%);"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"message": {
+		"name": "Message",
+		"color": null,
+		"category": null,
+		"items": [
+			{
+				"style": "top: 50px;left: 30px;width: 1860px;height: 150px;opacity: 0.8;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "Message",
+								"style": "font-size: 50px;text-shadow: 2px 2px 4px rgb(0 0 0 / 80%);"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"header": {
+		"name": "Header",
+		"color": null,
+		"category": "presentation",
+		"items": [
+			{
+				"style": "top:428.50px;left:208.50px;height:220px;width:1500px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "Header",
+								"style": "font-size: 180px;font-weight: bold;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"text": {
+		"name": "Text",
+		"color": null,
+		"category": "presentation",
+		"items": [
+			{
+				"style": "top:35px;left:50.5px;height:220px;width:1820px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left;",
+						"text": [
+							{
+								"value": "Header",
+								"style": "font-size: 120px;font-weight: bold;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "top:290px;left:50.5px;height:750px;width:1820px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left;",
+						"text": [
+							{
+								"value": "Text",
+								"style": "font-size: 80px;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"big": {
+		"name": "Big",
+		"color": null,
+		"category": "song",
+		"items": [
+			{
+				"style": "top:120px;left:50px;height:840px;width:1820px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "Big",
+								"style": "font-size: 120px;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"default": {
+		"name": "Default",
+		"color": null,
+		"category": "song",
+		"items": [
+			{
+				"style": "top:120px;left:50px;height:840px;width:1820px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "Default",
+								"style": "font-size: 100px;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"small": {
+		"name": "Small",
+		"color": null,
+		"category": "song",
+		"items": [
+			{
+				"style": "top:120px;left:50px;height:840px;width:1820px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "Small",
+								"style": "font-size: 80px;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"bigBold": {
+		"name": "Big Bold",
+		"color": null,
+		"category": "song",
+		"items": [
+			{
+				"style": "top:120px;left:50px;height:840px;width:1820px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "Big Bold",
+								"style": "font-size: 120px;font-weight: bold;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"defaultBold": {
+		"name": "Default Bold",
+		"color": null,
+		"category": "song",
+		"items": [
+			{
+				"style": "top:120px;left:50px;height:840px;width:1820px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "Default Bold",
+								"style": "font-size: 100px;font-weight: bold;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"smallBold": {
+		"name": "Small Bold",
+		"color": null,
+		"category": "song",
+		"items": [
+			{
+				"style": "top:120px;left:50px;height:840px;width:1820px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "Small Bold",
+								"style": "font-size: 80px;font-weight: bold;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"blur_box": {
+		"name": "Blur box",
+		"color": null,
+		"category": "song",
+		"items": [
+			{
+				"style": "top:310px;left:0px;height:460px;width:1920px;background-color: rgb(0 0 0 / 0.5);backdrop-filter: blur(10px);",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "1",
+								"style": "font-size: 90px;line-height:1.2em;letter-spacing:2px;text-shadow: 0 0 #000000;"
+							}
+						]
+					},
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "2",
+								"style": "font-size: 90px;line-height:1.2em;letter-spacing:2px;text-shadow: 0 0 #000000;"
+							}
+						]
+					},
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "3",
+								"style": "font-size: 90px;line-height:1.2em;letter-spacing:2px;text-shadow: 0 0 #000000;"
+							}
+						]
+					},
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "4",
+								"style": "font-size: 90px;line-height:1.2em;letter-spacing:2px;text-shadow: 0 0 #000000;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"faded": {
+		"name": "Faded",
+		"color": null,
+		"category": "song",
+		"items": [
+			{
+				"style": "top:0px;left:0px;height:1080px;width:1920px;background-color: rgb(0 0 0 / 0.5);backdrop-filter: blur(10px);",
+				"align": "",
+				"actions": {
+					"transition": {
+						"type": "none",
+						"duration": 0,
+						"easing": "linear"
+					}
+				},
+				"lines": []
+			},
+			{
+				"style": "top:310px;left:0px;height:460px;width:1920px;",
+				"align": "",
+				"actions": {
+					"transition": {
+						"type": "fade",
+						"duration": 500,
+						"easing": "sine"
+					}
+				},
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "1",
+								"style": "font-size: 90px;line-height:1.2em;letter-spacing:2px;"
+							}
+						]
+					},
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "2",
+								"style": "font-size: 90px;line-height:1.2em;letter-spacing:2px;"
+							}
+						]
+					},
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "3",
+								"style": "font-size: 90px;line-height:1.2em;letter-spacing:2px;"
+							}
+						]
+					},
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "4",
+								"style": "font-size: 90px;line-height:1.2em;letter-spacing:2px;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"box": {
+		"name": "Box",
+		"color": null,
+		"category": "song",
+		"items": [
+			{
+				"style": "top:387.50px;left:51px;height:307.15px;width:1820px;border-width:8px;background-color: rgb(0 0 0 / 0.4);border-radius: 20px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "1",
+								"style": "font-weight: bold;font-size: 80px;line-height:1.1em;letter-spacing:2px;text-shadow: 0 0 #000000;"
+							}
+						]
+					},
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "2",
+								"style": "font-weight: bold;font-size: 80px;line-height:1.1em;letter-spacing:2px;text-shadow: 0 0 #000000;"
+							}
+						]
+					},
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "3",
+								"style": "font-weight: bold;font-size: 80px;line-height:1.1em;letter-spacing:2px;text-shadow: 0 0 #000000;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"trendy": {
+		"name": "Trendy",
+		"color": null,
+		"category": "song",
+		"items": [
+			{
+				"style": "top:310px;left:100px;height:460px;width:1720px;",
+				"align": "",
+				"specialStyle": {
+					"lineGap": 20,
+					"lineBg": "#000000"
+				},
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "1",
+								"style": "font-size: 60px;line-height:1.5em;letter-spacing:2px;text-shadow: 0 0 #000000;"
+							}
+						]
+					},
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "2",
+								"style": "font-size: 60px;line-height:1.5em;letter-spacing:2px;text-shadow: 0 0 #000000;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"scripture": {
+		"name": "Scripture",
+		"color": "#876543",
+		"category": "scripture",
+		"items": [
+			{
+				"style": "top: 30px;left: 30px;width: 1860px;height: 875px;background-color: rgb(0 0 0 / 0.4);border-radius: 20px;padding: 25px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left;",
+						"text": [
+							{
+								"value": "1",
+								"style": "font-size: 80px;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "top: 910px;left: 30px;width: 1860px;height: 150px;opacity: 0.8;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "Meta",
+								"style": "font-size: 50px;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"scripture_2": {
+		"name": "Scripture 2",
+		"color": "#876543",
+		"category": "scripture",
+		"items": [
+			{
+				"style": "top: 40px;left: 30px;width: 1860px;height: 400px;background-color: rgb(0 0 0 / 0.4);border-radius: 20px;padding: 25px;border-width: 1px;border-color: #cccccc;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left;",
+						"text": [
+							{
+								"value": "1",
+								"style": "font-size: 70px;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "top: 475px;left: 30px;width: 1860px;height: 400px;background-color: rgb(0 0 0 / 0.4);border-radius: 20px;padding: 25px;border-width: 1px;border-color: #cccccc;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left;",
+						"text": [
+							{
+								"value": "2",
+								"style": "font-size: 70px;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "top: 910px;left: 30px;width: 1860px;height: 150px;opacity: 0.8;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "Meta",
+								"style": "font-size: 50px;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"scripture_3": {
+		"name": "Scripture 3",
+		"color": "#876543",
+		"category": "scripture",
+		"items": [
+			{
+				"style": "top: 40px;left: 30px;width: 1860px;height: 250px;background-color: rgb(0 0 0 / 0.4);border-radius: 20px;padding: 25px;border-width: 1px;border-color: #cccccc;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left;",
+						"text": [
+							{
+								"value": "1",
+								"style": "font-size: 60px;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "top: 320px;left: 30px;width: 1860px;height: 250px;background-color: rgb(0 0 0 / 0.4);border-radius: 20px;padding: 25px;border-width: 1px;border-color: #cccccc;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left;",
+						"text": [
+							{
+								"value": "2",
+								"style": "font-size: 60px;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "top: 600px;left: 30px;width: 1860px;height: 250px;background-color: rgb(0 0 0 / 0.4);border-radius: 20px;padding: 25px;border-width: 1px;border-color: #cccccc;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left;",
+						"text": [
+							{
+								"value": "3",
+								"style": "font-size: 60px;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "top: 910px;left: 30px;width: 1860px;height: 150px;opacity: 0.8;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "Meta",
+								"style": "font-size: 50px;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"scripture_4": {
+		"name": "Scripture 4",
+		"color": "#876543",
+		"category": "scripture",
+		"items": [
+			{
+				"style": "top: 40px;left: 30px;width: 1860px;height: 200px;background-color: rgb(0 0 0 / 0.4);border-radius: 20px;padding: 25px;border-width: 1px;border-color: #cccccc;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left;",
+						"text": [
+							{
+								"value": "1",
+								"style": "font-size: 60px;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "top: 250px;left: 30px;width: 1860px;height: 200px;background-color: rgb(0 0 0 / 0.4);border-radius: 20px;padding: 25px;border-width: 1px;border-color: #cccccc;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left;",
+						"text": [
+							{
+								"value": "2",
+								"style": "font-size: 60px;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "top: 460px;left: 30px;width: 1860px;height: 200px;background-color: rgb(0 0 0 / 0.4);border-radius: 20px;padding: 25px;border-width: 1px;border-color: #cccccc;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left;",
+						"text": [
+							{
+								"value": "3",
+								"style": "font-size: 60px;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "top: 670px;left: 30px;width: 1860px;height: 200px;background-color: rgb(0 0 0 / 0.4);border-radius: 20px;padding: 25px;border-width: 1px;border-color: #cccccc;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left;",
+						"text": [
+							{
+								"value": "4",
+								"style": "font-size: 60px;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "top: 910px;left: 30px;width: 1860px;height: 150px;opacity: 0.8;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "Meta",
+								"style": "font-size: 50px;"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"blueHeader": {
+		"name": "Blue Header",
+		"color": "#2957ff",
+		"category": "presentation",
+		"items": [
+			{
+				"style": "left:720px;top:640px;width:1130px;height:210px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left",
+						"text": [
+							{
+								"value": "1",
+								"style": "font-weight:bold;font-family:Arial;line-height:1.2em;font-size:120px;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "left:720px;top:850px;width:1130px;height:60px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left",
+						"text": [
+							{
+								"value": "2",
+								"style": "color:#ffffff;font-size:50px;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "left:-850px;top:-600px;width:1600px;height:1600px;background-color:#2957ff;transform:rotate(30deg);",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "",
+								"style": ""
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"blueMain": {
+		"name": "Blue Content",
+		"color": "#2957ff",
+		"category": "presentation",
+		"items": [
+			{
+				"style": "left:550px;top:50px;width:1320px;height:980px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left",
+						"text": [
+							{
+								"value": "1",
+								"style": "font-weight:bold;font-family:Arial;font-size:80px;line-height:1.2em;"
+							}
+						]
+					},
+					{
+						"align": "text-align: left",
+						"text": [
+							{
+								"value": "2",
+								"style": "font-weight:bold;font-family:Arial;font-size:80px;line-height:1.2em;"
+							}
+						]
+					},
+					{
+						"align": "text-align: left",
+						"text": [
+							{
+								"value": "3",
+								"style": "font-weight:bold;font-family:Arial;font-size:80px;line-height:1.2em;"
+							}
+						]
+					},
+					{
+						"align": "text-align: left",
+						"text": [
+							{
+								"value": "4",
+								"style": "font-weight:bold;font-family:Arial;font-size:80px;line-height:1.2em;"
+							}
+						]
+					},
+					{
+						"align": "text-align: left",
+						"text": [
+							{
+								"value": "5",
+								"style": "font-weight:bold;font-family:Arial;font-size:80px;line-height:1.2em;"
+							}
+						]
+					}
+				]
+			},
+			{
+				"style": "left:0px;top:0px;width:500px;height:1080px;background-color: #2957ff;",
+				"align": "",
+				"lines": [
+					{
+						"align": "",
+						"text": [
+							{
+								"value": "",
+								"style": ""
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"bullets": {
+		"name": "Bullets",
+		"color": "#747680",
+		"category": "presentation",
+		"items": [
+			{
+				"style": "top:120px;left:50px;height:840px;width:1820px;",
+				"align": "",
+				"lines": [
+					{
+						"align": "text-align: left",
+						"text": [
+							{
+								"value": "• Bullet 1",
+								"style": "font-size: 100px;font-weight: bold;line-height:1.2em;"
+							}
+						]
+					},
+					{
+						"align": "text-align: left",
+						"text": [
+							{
+								"value": "• Bullet 2",
+								"style": "font-size: 100px;font-weight: bold;line-height:1.2em;"
+							}
+						]
+					},
+					{
+						"align": "text-align: left",
+						"text": [
+							{
+								"value": "• Bullet 3",
+								"style": "font-size: 100px;font-weight: bold;line-height:1.2em;"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

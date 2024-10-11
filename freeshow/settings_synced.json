@@ -1,0 +1,154 @@
+{
+	"categories": {
+		"song": {
+			"name": "category.song",
+			"icon": "song",
+			"default": true
+		},
+		"presentation": {
+			"name": "category.presentation",
+			"icon": "presentation",
+			"default": true
+		}
+	},
+	"drawSettings": {},
+	"overlayCategories": {
+		"offers": {
+			"name": "category.offers",
+			"icon": "cash",
+			"default": true
+		},
+		"notice": {
+			"name": "category.notice",
+			"icon": "info",
+			"default": true
+		},
+		"visuals": {
+			"name": "category.visuals",
+			"icon": "star",
+			"default": true
+		}
+	},
+	"templateCategories": {
+		"song": {
+			"name": "category.song",
+			"icon": "song",
+			"default": true
+		},
+		"presentation": {
+			"name": "category.presentation",
+			"icon": "presentation",
+			"default": true
+		},
+		"scripture": {
+			"default": true,
+			"name": "category.scripture",
+			"icon": "scripture"
+		}
+	},
+	"timers": {
+		"default": {
+			"name": "05:00",
+			"type": "counter",
+			"start": 300,
+			"end": 0
+		}
+	},
+	"variables": {
+		"default": {
+			"name": "Counter",
+			"type": "number"
+		}
+	},
+	"triggers": {},
+	"audioStreams": {},
+	"audioPlaylists": {},
+	"scriptures": {
+		"kjv": {
+			"name": "King James (Authorised) Version",
+			"api": true,
+			"id": "de4e12af7f28f599-02"
+		},
+		"asv": {
+			"name": "The Holy Bible, American Standard Version",
+			"api": true,
+			"id": "06125adad2d5898a-01"
+		},
+		"web": {
+			"name": "World English Bible",
+			"api": true,
+			"id": "9879dbb7cfe39e4d-04"
+		},
+		"wmb": {
+			"name": "World Messianic Bible",
+			"api": true,
+			"id": "f72b840c855f362c-04"
+		},
+		"bsb": {
+			"name": "Berean Study Bible",
+			"api": true,
+			"id": "bba9f40183526463-01"
+		}
+	},
+	"scriptureSettings": {
+		"template": "scripture",
+		"versesPerSlide": 3,
+		"verseNumbers": false,
+		"showVersion": false,
+		"showVerse": true,
+		"referenceDivider": ":"
+	},
+	"groups": {
+		"break": {
+			"name": "break",
+			"default": true,
+			"color": "#f5255e"
+		},
+		"bridge": {
+			"name": "bridge",
+			"default": true,
+			"color": "#f52598",
+			"shortcut": "B"
+		},
+		"chorus": {
+			"name": "chorus",
+			"default": true,
+			"color": "#f525d2",
+			"shortcut": "C"
+		},
+		"intro": {
+			"name": "intro",
+			"default": true,
+			"color": "#d525f5"
+		},
+		"outro": {
+			"name": "outro",
+			"default": true,
+			"color": "#a525f5"
+		},
+		"pre_chorus": {
+			"name": "pre_chorus",
+			"default": true,
+			"color": "#8825f5"
+		},
+		"tag": {
+			"name": "tag",
+			"default": true,
+			"color": "#7525f5"
+		},
+		"verse": {
+			"name": "verse",
+			"default": true,
+			"color": "#5825f5",
+			"shortcut": "V"
+		}
+	},
+	"midiIn": {},
+	"videoMarkers": {},
+	"customizedIcons": {
+		"disabled": [],
+		"svg": []
+	},
+	"companion": {},
+	"globalTags": {}
+}
