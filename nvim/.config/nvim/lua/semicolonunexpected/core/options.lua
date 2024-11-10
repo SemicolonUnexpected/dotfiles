@@ -1,5 +1,7 @@
 vim.g.have_nerd_font = false
 
+vim.opt.guicursor = 'n-v-i-c:block-Cursor'
+
 -- Line numbers
 vim.opt.number = true
 vim.opt.relativenumber = true
