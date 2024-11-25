@@ -12,6 +12,8 @@ alias grep='grep --color=auto'
 # I am very lazy so here are some very short aliases
 alias v='nvim'
 alias nf='neofetch'
+alias freeshow='./FreeShow-1.2.9-x86_64.AppImage'
+alias start-su='./repos/su-setup/setup.sh'
 
 # Not currently using a vm
 # alias vm='sudo virsh net-start default'
@@ -30,3 +32,4 @@ eval "$(starship init bash)"
 # Dotnet
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
+export PATH=$PATH:$HOME/Applications/
