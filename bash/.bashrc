@@ -23,15 +23,20 @@ alias start-su='./repos/su-setup/setup.sh'
 # alias tmux="TERM=screen-256color-bce tmux"
 
 # Rust env
-PS1='[\u@\h \W]\$ '
+# PS1='[\u@\h \W]\$ '
 # PS1='$ '
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
 
 # Starship
 eval "$(starship init bash)"
 
 # Dotnet
-export DOTNET_ROOT=$HOME/.dotnet
-export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
-export PATH=$PATH:$HOME/Applications/
-source ~/.config_file
+#export DOTNET_ROOT=$HOME/.dotnet
+#export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
+#export PATH=$PATH:$HOME/Applications/
+#source ~/.config_file
+
+export SDL_VIDEODRIVER=wayland
+export QT_QPA_PLATFORM=wayland
+export GDK_BACKEND=wayland
+
