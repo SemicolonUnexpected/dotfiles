@@ -40,3 +40,4 @@ export SDL_VIDEODRIVER=wayland
 export QT_QPA_PLATFORM=wayland
 export GDK_BACKEND=wayland
 
+export ROBOT=192.168.43.1

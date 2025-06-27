@@ -48,4 +48,4 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 
 -- Text wrapping
-vim.opt.wrap = false
+vim.opt.wrap = true
