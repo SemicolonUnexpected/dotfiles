@@ -1,7 +1,7 @@
 #!/bin/sh
 
-if pgrep -x rofi; then
-	killall rofi
+if pgrep -x tofi-drun; then
+	killall tofi-drun
 else
-	rofi -normal-window -show drun
+	tofi-drun
 fi

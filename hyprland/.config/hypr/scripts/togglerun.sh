@@ -1,7 +1,7 @@
 #!/bin/sh
 
-if pgrep -x rofi; then
-	killall rofi
+if pgrep -x tofi-run; then
+	killall tofi-run
 else
-	rofi -normal-window -show run
+	tofi-run
 fi
