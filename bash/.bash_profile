@@ -2,8 +2,8 @@
 # ~/.bash_profile
 #
 
-[[ -f ~/.bashrc ]] && . ~/.bashrc
-. "$HOME/.cargo/env"
+#[[ -f ~/.bashrc ]] && . ~/.bashrc
+#. "$HOME/.cargo/env"
 
 
 # Dotnet

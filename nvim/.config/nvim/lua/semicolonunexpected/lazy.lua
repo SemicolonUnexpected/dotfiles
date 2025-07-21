@@ -20,7 +20,9 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Load the config files
 require('lazy').setup {
-  { import = 'semicolonunexpected.plugins' },
-  { import = 'semicolonunexpected.plugins.lsp.mason' },
-  { import = 'semicolonunexpected.plugins.lsp.lsp-config' },
+  change_detection = { notify = false },
+  spec = {
+    { import = 'semicolonunexpected.plugins' },
+    { import = 'semicolonunexpected.plugins.lsp' },
+  },
 }
