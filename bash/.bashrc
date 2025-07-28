@@ -34,3 +34,6 @@ eval "$(starship init bash)"
 export DOTNET_ROOT=/usr/share/dotnet
 
 export TOKEN="$(cat ~/token)"
+
+export PICO_SDK_PATH=$HOME/pico/pico-sdk
+
