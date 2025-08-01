@@ -8,17 +8,11 @@
 #
 # -----------------------------------------------------
 
-# -----------------------------------------------------
-# Select a random wallpaper
-# -----------------------------------------------------
+# Define the directory where your wallpapers are stored
+WALLPAPER_DIR="$HOME/.config/wallpapers/"
 
-WALLPAPER=$(ls ~/.config/wallpapers/ | shuf -n 1)
+# Get a random wallpaper file from the directory
+WALLPAPER=$(find "$WALLPAPER_DIR" -type f | shuf -n 1)
 
-# -----------------------------------------------------
-# Set the new wallpaper
-# -----------------------------------------------------
-
-cp /dev/null ~/.config/hypr/hyprpaper.conf
-echo "splash = false" >> ~/.config/hypr/hyprpaper.conf
-echo "preload = ~/.config/wallpapers/$WALLPAPER" >> ~/.config/hypr/hyprpaper.conf
-echo "wallpaper = ,~/.config/wallpapers/$WALLPAPER" >> ~/.config/hypr/hyprpaper.conf
+# Tell hyprpaper to reload with the new wallpaper
+hyprctl hyprpaper reload ,"$WALLPAPER"
