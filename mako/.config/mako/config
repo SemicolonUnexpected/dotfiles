@@ -1,0 +1,88 @@
+# See `man 5 mako` for a full list of configuration options.
+# You can also use `makoctl` to control mako at runtime.
+
+# Global styling and positioning options. These apply to all notifications unless
+# overridden in a criteria section.
+
+# Position of the notification window on the screen.
+# Options: top-right, top-center, top-left, bottom-right, bottom-center, bottom-left, center
+anchor=top-right
+
+# The layer of the window relative to normal windows.
+# Options: background, bottom, top, overlay
+# 'top' is a good default for Hyprland.
+layer=top
+
+# The maximum number of notifications to show at once.
+# Set to -1 for unlimited.
+max-visible=5
+
+# The width and height of the notification window.
+width=300
+height=100
+
+# The font used for the notification text.
+font=JetBrainsMono 14
+
+# The padding inside the notification window.
+padding=12
+
+# The margin between individual notifications.
+margin=10
+
+# The margin around the group of notifications.
+outer-margin=10
+
+# The color of the notification background.
+# Format is #RRGGBBAA
+background-color=#011627
+#
+# The color of the text.
+text-color=#fafafa
+#
+# The size of the border around the notification.
+border-size=2
+
+# The color of the border.
+border-color=#ACB4C2
+
+# The radius of the corners.
+border-radius=5
+
+# The default timeout for notifications in milliseconds.
+# Set to 0 to disable timeout.
+default-timeout=5000
+
+# Enable Pango markup for rich text (e.g., bold, italics).
+markup=1
+
+# Enable icons in notifications.
+icons=1
+max-icon-size=32
+
+# Sort notifications by time (newest first).
+# Use `+time` for oldest first.
+sort=-time
+
+# Disable grouping of notifications by application name.
+# You can enable it with `group-by=app-name`.
+group-by=none
+
+# BINDINGS
+# You can set actions for mouse clicks.
+# left-button: invoke-default-action
+# right-button: dismiss
+# middle-button: none
+# on-button-right=dismiss
+
+# You can define different styles for specific notifications by creating
+# criteria blocks. For example, for a critical battery notification, you
+# might want it to be more prominent.
+
+ [urgency=critical]
+ text-color=#fc514e
+ border-color=#fc514e
+
+# This is a sample critical notification configuration.
+# To use it, uncomment the lines above and a notification with urgency=critical,
+# like the low battery one from the previous response, will use these settings.
