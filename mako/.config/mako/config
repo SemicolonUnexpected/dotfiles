@@ -79,9 +79,9 @@ group-by=none
 # criteria blocks. For example, for a critical battery notification, you
 # might want it to be more prominent.
 
- [urgency=critical]
- text-color=#fc514e
- border-color=#fc514e
+[urgency=critical]
+text-color=#fc514e
+border-color=#fc514e
 
 # This is a sample critical notification configuration.
 # To use it, uncomment the lines above and a notification with urgency=critical,
