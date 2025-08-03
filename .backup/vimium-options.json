@@ -1,0 +1,5 @@
+{
+  "keyMappings": "# Swap J and K for vertical tabs\nunmap K\nmap K previousTab\nunmap J\nmap J nextTab",
+  "settingsVersion": "2.3",
+  "exclusionRules": []
+}
