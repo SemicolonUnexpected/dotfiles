@@ -19,6 +19,3 @@ WALLPAPER=$(find "$WALLPAPER_DIR" -type f ! -name "current" | shuf -n 1)
 
 # Save the wallpaper path (optional alternative: copy the file)
 ln -sf "$WALLPAPER" "$CURRENT_WALLPAPER"
-
-# Tell hyprpaper to reload with the new wallpaper
-hyprctl hyprpaper reload ,"$CURRENT_WALLPAPER"
