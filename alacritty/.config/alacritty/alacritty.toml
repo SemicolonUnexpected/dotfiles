@@ -37,7 +37,7 @@ y = 7
 
 [terminal.shell]
 program = "tmux"
-args = ["new-session", "-A", "-s", "default"]
+args = ["new-session", "-A", "-s", "main"]
 
 [general]
 import = ["~/.config/alacritty/nightfly.toml"]

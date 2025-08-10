@@ -1,0 +1,4 @@
+keymap:
+  - name: Ctrl-LeftBrace to Esc
+    remap:
+      Ctrl-LeftBrace: Esc
