@@ -18,8 +18,8 @@ layer=top
 max-visible=5
 
 # The width and height of the notification window.
-width=300
-height=100
+width=400
+height=400
 
 # The font used for the notification text.
 font=JetBrainsMono 14
