@@ -8,6 +8,8 @@
 # Options: top-right, top-center, top-left, bottom-right, bottom-center, bottom-left, center
 anchor=top-right
 
+# output=eDP-1
+
 # The layer of the window relative to normal windows.
 # Options: background, bottom, top, overlay
 # 'top' is a good default for Hyprland.
@@ -51,14 +53,14 @@ border-radius=5
 
 # The default timeout for notifications in milliseconds.
 # Set to 0 to disable timeout.
-default-timeout=5000
+default-timeout=6000
 
 # Enable Pango markup for rich text (e.g., bold, italics).
 markup=1
 
 # Enable icons in notifications.
 icons=1
-max-icon-size=32
+max-icon-size=64
 
 # Sort notifications by time (newest first).
 # Use `+time` for oldest first.

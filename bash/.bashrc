@@ -12,9 +12,9 @@ alias grep='grep --color=auto'
 # I am very lazy so here are some very short aliases
 alias v='nvim'
 alias nf='fastfetch'
-alias freeshow='hyprctl dispatch exec "./FreeShow-1.3.0-x86_64.AppImage"'
-alias freesho='hyprctl dispatch exec "./FreeShow-1.3.0-x86_64.AppImage --ozone-platform=wayland"'
-alias start-su='./repos/su-setup/setup.sh'
+# alias freeshow='hyprctl dispatch exec "./FreeShow-1.3.0-x86_64.AppImage"'
+# alias freesho='hyprctl dispatch exec "./FreeShow-1.3.0-x86_64.AppImage --ozone-platform=wayland"'
+# alias start-su='./repos/su-setup/setup.sh'
 
 # Not currently using a vm
 # alias vm='sudo virsh net-start default'
@@ -32,7 +32,8 @@ eval "$(starship init bash)"
 
 # Dotnet
 export DOTNET_ROOT=/usr/share/dotnet
-
 export TOKEN="$(cat ~/keys/token)"
-
 export PICO_SDK_PATH=$HOME/pico/pico-sdk
+
+# Vim as manpager
+# export MANPAGER="nvim -M +MANPAGER"
