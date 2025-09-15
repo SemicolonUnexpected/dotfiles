@@ -31,14 +31,10 @@ return {
 
     -- Configure servers using vim.lsp.config
     for _, server_name in ipairs(servers.ensure_installed) do
-      local server = servers.servers[server_name] or {}
-      server.capabilities = vim.tbl_deep_extend('force', {}, vim.deepcopy(capabilities), server.capabilities or {})
+      local server_options = servers.servers[server_name] or {}
+      server_options.capabilities = vim.tbl_deep_extend('force', {}, vim.deepcopy(capabilities), server_options.capabilities or {})
 
-      vim.lsp.config(server_name, {
-        capabilities = server.capabilities,
-        settings = server.settings or {},
-        on_attach = server.on_attach,
-      })
+      vim.lsp.config(server_name, server_options)
     end
 
     -- Global default diagnotics

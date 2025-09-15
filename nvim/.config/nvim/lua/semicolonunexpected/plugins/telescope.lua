@@ -19,7 +19,7 @@ return {
     telescope.load_extension 'fzf'
 
     vim.keymap.set('n', '<C-f>', '<cmd>Telescope find_files<cr>')
-    vim.keymap.set('n', '<leader>lg', '<cmd>Telescope live_grep<cr>')
-    vim.keymap.set('n', '<leader>r', '<cmd>Telescope registers<cr>')
+    vim.keymap.set('n', '<C-s>', '<cmd>Telescope live_grep<cr>')
+    -- vim.keymap.set('n', '<leader>r', '<cmd>Telescope registers<cr>')
   end,
 }

@@ -9,6 +9,7 @@
 # Dotnet
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
+export PATH="/usr/lib/jvm/default/bin:$PATH"
 
 if [ -f ~/.bashrc ]; then
   source ~/.bashrc

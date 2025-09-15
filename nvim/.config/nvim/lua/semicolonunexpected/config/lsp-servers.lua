@@ -29,22 +29,11 @@ return {
       -- capabilities = {},
       settings = {
         EnableEditorConfigSupport = true,
-        FormattingOptions = {
-          --          OrganizeImports = true,
-          --          NewLinesForBracesInTypes = false,
-          --          NewLinesForBracesInMethods = false,
-          --          NewLinesForBracesInProperties = false,
-          --          NewLinesForBracesInAccessors = false,
-          --          NewLinesForBracesInAnonymousMethods = false,
-          --          NewLinesForBracesInControlBlocks = false,
-          --          NewLinesForBracesInAnonymousTypes = false,
-          --          NewLinesForBracesInObjectCollectionArrayInitializers = false,
-          --          NewLinesForBracesInLambdaExpressionBody = false,
-          --          NewLinesForBracesInMultiLineStatements = false,
-        },
+        FormattingOptions = {},
       },
     },
-    --     pyright = {},
-    -- csharp_ls = {},
+    jdtls = {
+      cmd = {},
+    },
   },
 }
