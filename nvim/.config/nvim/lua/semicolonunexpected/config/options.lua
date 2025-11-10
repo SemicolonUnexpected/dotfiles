@@ -11,6 +11,7 @@ opt.showmode = false
 opt.number = true
 opt.relativenumber = true
 opt.cursorline = true
+
 -- opt.colorcolumn = '80'
 opt.signcolumn = 'yes'
 opt.wrap = false

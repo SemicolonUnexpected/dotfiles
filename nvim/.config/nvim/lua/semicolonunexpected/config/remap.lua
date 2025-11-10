@@ -2,7 +2,7 @@ vim.g.mapleader = ' '
 
 local km = vim.keymap
 
-km.set({'n', 'v'}, '<Space>', '<Nop>', { noremap = true })
+km.set({ 'n', 'v' }, '<Space>', '<Nop>', { noremap = true })
 
 -- Move selection in visual mode with 'J' and 'K'
 km.set('v', 'K', ":m '<-2<CR>gv=gv")

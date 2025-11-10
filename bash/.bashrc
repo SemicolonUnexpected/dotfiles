@@ -31,9 +31,9 @@ alias nf='fastfetch'
 eval "$(starship init bash)"
 
 # Dotnet
-export DOTNET_ROOT=/usr/share/dotnet
+# export DOTNET_ROOT=/usr/share/dotnet
 export TOKEN="$(cat ~/keys/token)"
-export PICO_SDK_PATH=$HOME/pico/pico-sdk
+# export PICO_SDK_PATH=$HOME/pico/pico-sdk
 
 # Vim as manpager
-# export MANPAGER="nvim -M +MANPAGER"
+export MANPAGER='sh -c "col -bx | vim -R -c \"set ft=man nomod nolist nonu\" -c \"runtime! macros/less.vim\" -"'

@@ -2,9 +2,9 @@ return {
   ensure_installed = {
     'stylua',
     'lua_ls',
-    'omnisharp',
     'isort',
     'black',
+    'tinymist',
   },
   servers = {
     lua_ls = {
@@ -24,16 +24,22 @@ return {
       },
     },
     --    ts_ls = {},
-    omnisharp = {
-      cmd = { 'dotnet', vim.fn.stdpath 'data' .. '/mason/packages/omnisharp/libexec/OmniSharp.dll' },
-      -- capabilities = {},
-      settings = {
-        EnableEditorConfigSupport = true,
-        FormattingOptions = {},
-      },
-    },
+    -- omnisharp = {
+    --   cmd = { 'dotnet', vim.fn.stdpath 'data' .. '/mason/packages/omnisharp/libexec/OmniSharp.dll' },
+    --   -- capabilities = {},
+    --   settings = {
+    --     EnableEditorConfigSupport = true,
+    --     FormattingOptions = {},
+    --   },
+    -- },
     jdtls = {
       cmd = {},
     },
+    tinymist = {},
+    ts_ls = {},
+    xmlformatter = {},
+    zls = {},
+    typestyle = {},
+    prettier = {},
   },
 }
