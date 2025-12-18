@@ -41,5 +41,7 @@ return {
     zls = {},
     typestyle = {},
     prettier = {},
+    pyrefly = {},
+    nil_ls = {},
   },
 }

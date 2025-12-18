@@ -9,13 +9,13 @@
 # -----------------------------------------------------
 
 # Define the directory where your wallpapers are stored
-WALLPAPER_DIR="$HOME/.config/wallpapers/"
+WALLPAPER_DIR="$HOME/.config/wallpapers"
 
 # Define path to save the currently selected wallpaper
 CURRENT_WALLPAPER="$WALLPAPER_DIR/current"
 
 # Get a random wallpaper file from the directory
-WALLPAPER=$(find "$WALLPAPER_DIR" -type f ! -name "current" | shuf -n 1)
+WALLPAPER=$(find "$WALLPAPER_DIR/christmas" -type f ! -name "current" | shuf -n 1)
 
 # Save the wallpaper path (optional alternative: copy the file)
 ln -sf "$WALLPAPER" "$CURRENT_WALLPAPER"
