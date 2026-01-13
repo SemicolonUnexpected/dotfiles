@@ -4,9 +4,7 @@ return {
     require('nvim-treesitter.install').update { with_sync = true }()
   end,
   config = function()
-    local configs = require 'nvim-treesitter.configs'
-
-    configs.setup {
+    require('nvim-treesitter').setup {
       ensure_installed = {
         'lua',
         'vim',
