@@ -14,8 +14,11 @@ WALLPAPER_DIR="$HOME/.config/wallpapers"
 # Define path to save the currently selected wallpaper
 CURRENT_WALLPAPER="$WALLPAPER_DIR/current"
 
-# Get a random wallpaper file from the directory
-WALLPAPER=$(find "$WALLPAPER_DIR/christmas" -type f ! -name "current" | shuf -n 1)
+# Get a random wallpaper file from the directory where the name is not current
+WALLPAPER=$(find "$WALLPAPER_DIR/default" -type f ! -name "current" | shuf -n 1)
 
-# Save the wallpaper path (optional alternative: copy the file)
+# Save the wallpaper path
 ln -sf "$WALLPAPER" "$CURRENT_WALLPAPER"
+
+# Set the wallpaper
+hyprctl hyprpaper reload ",$WALLPAPER"
